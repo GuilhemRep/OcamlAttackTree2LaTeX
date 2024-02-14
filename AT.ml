@@ -1,11 +1,3 @@
-(************************************************************************************************************************
-
-Ce module sert à faire des manipulations sur des arbres binaires de recherche, puis à générer un code tikz
-au format qtree qui représente l'arbre obtenu.
-
-************************************************************************************************************************)
-
-
 type at = Empty | Node of (string * at list)
 
 
